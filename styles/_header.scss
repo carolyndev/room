@@ -73,10 +73,8 @@ nav {
   color: $bl;
   text-transform: lowercase;
   font-weight: 600;
-
   opacity: 0;
   visibility: hidden;
-  // transition: opacity 300ms ease, visibility 300ms ease;
 
   &.open {
     opacity: 1;
