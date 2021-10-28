@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+
+// colors
+
+$dk-gr: hsl(0, 0%, 63%);
+$bl: hsl(0, 0%, 10%);
+$wt: hsl(0, 0%, 100%);
+$vdk-gr: hsl(0, 0%, 27%);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+a,
+button,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $wt;
+  font-size: 0.75rem;
+  color: $dk-gr;
+  font-family: 'Spartan', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 769px) {
+    font-size: 0.8125rem;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 1800px) {
+    font-size: 1rem;
+  }
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+// main {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.px {
+  padding: 0 1.875rem;
+
+  @media screen and (min-width: 48.0625rem) {
+    padding: 0 3rem;
+  }
+}
