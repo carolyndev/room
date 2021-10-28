@@ -304,15 +304,15 @@ nav {
 }
 
 .slide-1 .hero__image {
-  background-image: url(../../images/mobile-image-hero-1.jpg);
+  background-image: url(../images/mobile-image-hero-1.jpg);
 }
 
 .slide-2 .hero__image {
-  background-image: url(../../images/mobile-image-hero-2.jpg);
+  background-image: url(../images/mobile-image-hero-2.jpg);
 }
 
 .slide-3 .hero__image {
-  background-image: url(../../images/mobile-image-hero-3.jpg);
+  background-image: url(../images/mobile-image-hero-3.jpg);
 }
 
 .hero__image {
@@ -359,13 +359,13 @@ nav {
 
 @media screen and (min-width: 481px) {
   .slide-1 .hero__image {
-    background-image: url(../../images/desktop-image-hero-1.jpg);
+    background-image: url(../images/desktop-image-hero-1.jpg);
   }
   .slide-2 .hero__image {
-    background-image: url(../../images/desktop-image-hero-2.jpg);
+    background-image: url(../images/desktop-image-hero-2.jpg);
   }
   .slide-3 .hero__image {
-    background-image: url(../../images/desktop-image-hero-3.jpg);
+    background-image: url(../images/desktop-image-hero-3.jpg);
   }
 }
 
@@ -460,12 +460,12 @@ nav {
 .about__image.image-1 {
   margin-bottom: 3.75rem;
   height: 15rem;
-  background-image: url(../../images/image-about-dark.jpg);
+  background-image: url(../images/image-about-dark.jpg);
 }
 
 .about__image.image-2 {
   height: 14rem;
-  background-image: url(../../images/image-about-light.jpg);
+  background-image: url(../images/image-about-light.jpg);
 }
 
 .about__details {
