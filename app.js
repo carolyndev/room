@@ -15,7 +15,6 @@ hamburgerBtn.addEventListener('click', handleClick);
 // carousel
 const slider = document.querySelector('.carousel__slider');
 const slides = Array.from(slider.children);
-// const slideWidth = slides[0].getBoundingClientRect().width;
 const nextBtn = document.querySelector('.carousel__controls--right ');
 const prevBtn = document.querySelector('.carousel__controls--left ');
 
