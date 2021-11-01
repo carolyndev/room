@@ -11,13 +11,11 @@
 
   &.image-1 {
     margin-bottom: 3.75rem;
-    height: 15rem;
-    background-image: url(../images/image-about-dark.jpg);
   }
 
-  &.image-2 {
-    height: 14rem;
-    background-image: url(../images/image-about-light.jpg);
+  img {
+    height: 100%;
+    width: 100%;
   }
 }
 .about__details {
@@ -39,7 +37,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 48rem) {
   .about {
     display: flex;
     height: 35vh;
@@ -52,44 +50,42 @@
   }
 
   .about__image {
-    flex: 1 0 16.625rem;
+    flex: 1 0 auto;
     background-position: left top;
     min-height: 35vh;
     height: 100%;
     background-size: cover;
 
     &.image-1 {
-      max-width: 420px;
+      max-width: 26.25rem;
     }
     &.image-2 {
-      max-width: 440px;
+      max-width: 27.5rem;
     }
   }
 
   .about__details {
-    flex: 1 0 16.625rem;
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     padding-top: 4.5rem;
-    min-width: 580px;
+    min-width: 36.25rem;
 
     .about__title {
-      // margin: 0 auto;
       margin-bottom: 1.25rem;
-      width: 580px;
+      width: 36.25rem;
     }
 
     .about__desc {
-      // margin: 0 auto;
       margin-bottom: 0;
-      width: 580px;
+      width: 36.25rem;
     }
   }
 }
 
 @media screen and (min-width: 112.5rem) {
   .about__image {
-    flex: 1 0 33%;
+    flex: 1 0 auto;
     min-width: 25%;
   }
 

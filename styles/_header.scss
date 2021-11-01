@@ -33,7 +33,7 @@ nav {
     display: block;
     width: 1.25rem;
     height: 0.125rem;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
     background-color: $wt;
     transform-origin: 1.5px 1px;
     transition: transform 300ms ease, opacity 300ms ease;
@@ -100,7 +100,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 48rem) {
   .logo {
     margin-left: 4rem;
     display: inline-block;
@@ -108,7 +108,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 68.75rem) {
   .hamburger {
     display: none;
   }

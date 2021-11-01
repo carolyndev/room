@@ -43,12 +43,12 @@ body {
     overflow: hidden;
   }
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 48rem) {
     font-size: 0.8125rem;
     overflow: hidden;
   }
 
-  @media screen and (min-width: 1800px) {
+  @media screen and (min-width: 112.5rem) {
     font-size: 1rem;
   }
 }
@@ -67,7 +67,7 @@ a:visited {
 .px {
   padding: 0 1.875rem;
 
-  @media screen and (min-width: 48.0625rem) {
+  @media screen and (min-width: 48rem) {
     padding: 0 3rem;
   }
 }

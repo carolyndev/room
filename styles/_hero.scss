@@ -30,7 +30,7 @@
 
 .carousel__slider {
   transition: transform 300ms ease;
-  min-height: 700px;
+  min-height: 43.75rem;
   height: 100%;
 }
 
@@ -63,7 +63,7 @@
 .hero__image {
   position: relative;
   width: 100%;
-  min-height: 360px;
+  min-height: 22.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
@@ -102,7 +102,7 @@
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 30rem) {
   .slide-1 {
     .hero__image {
       background-image: url(../images/desktop-image-hero-1.jpg);
@@ -120,7 +120,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 48rem) {
   .hero {
     margin-bottom: 0;
     height: 65vh;
@@ -159,7 +159,7 @@
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 112.5rem) {
   .hero__image {
     min-width: 50%;
     flex: 1 0 50%;
