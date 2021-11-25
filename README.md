@@ -12,6 +12,10 @@
 
 This landing page introduces users to Room Furniture products in a responsive layout. The desktop view features interactive hover states, while the mobile view includes a hamburger menu. Users can navigate the carousel using either their mouse/touch or keyboard.
 
+### View Live Site
+
+Live site URL: [carolyndev.github.io/room](https://carolyndev.github.io/room/)
+
 ### Screenshot
 
 ![room-landing](./images/screenshots/room.png)
