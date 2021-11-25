@@ -64,6 +64,6 @@ function toPrevSlide() {
 
 nextBtn.addEventListener('click', toNextSlide);
 prevBtn.addEventListener('click', toPrevSlide);
-nextBtn.addEventListener('keypress', toNextSlide);
-prevBtn.addEventListener('keypress', toPrevSlide);
+nextBtn.addEventListener('keydown', toNextSlide);
+prevBtn.addEventListener('keydown', toPrevSlide);
 window.addEventListener('resize', resizeSlider);
