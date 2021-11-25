@@ -1,27 +1,24 @@
-## Room Furniture
+## Room Furniture - E-commerce landing page
 
-#### By Carolyn Lau
-
-#### E-commerce landing page
-
-## Built with
+### Built with
 
 - Semantic HTML markup
 - SCSS
 - Javascript
 - Mobile-first approach
+- Responsive design
 
-## Description
+### Description
 
 This landing page introduces users to Room Furniture products in a responsive layout. The desktop view features interactive hover states, while the mobile view includes a hamburger menu. Users can navigate the carousel using either their mouse/touch or keyboard.
 
 ### Screenshot
 
-![](./images/screenshots/room.png)
+![room-landing](./images/screenshots/room.png)
 
-## Set-up
+### Set-up
 
-1. Clone this repository to your desktop. [Room Furniture](https://github.com/the-cl/room 'Room Furniture')
+1. Clone this repository to your desktop. [https://github.com/carolyndev/room](https://github.com/carolyndev/room)
 2. Navigate to the top level of the directory.
 3. Open index.html in your web browser.
 
@@ -47,8 +44,14 @@ The most challenging part of the process was creating the desktop layout for ext
 
 ### Continued development
 
-I am growing more comfortable with using SCSS preprocessor to write and organize my styles. I hope to explore more usage of Sass variables, specifically to toggle themes or dark mode.
+I will continue using the SCSS preprocessor to write and organize my styles in a DRY manner. I hope to explore more usage of Sass variables, specifically to toggle themes or dark mode.
 
 ### Acknowledgements
 
 Design and assets courtesy of Frontendmentor.io.
+
+### By Carolyn Lau
+
+- [Portfolio](carolyndev.com)
+- [GitHub](https://github.com/carolyndev)
+- [LinkedIn](https://www.linkedin.com/in/carolynlau-profile/)
